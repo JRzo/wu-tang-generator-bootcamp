@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Wu tang Generetor</title>
+    <link rel="stylesheet" href="/css/index.css">
+</head>
+<body>
+    <main>
+        <h1>Wu tang generator</h1>
+
+        <form id="userInfo">
+            <!-- Question one -->
+            <label for="QuestionOne">
+                Are you more of an introvert or an extrovert?
+            </label>
+            <input type="text" name="QuestionOne" id="QuestionOne" placeholder="text here">
+            <br>
+            <!-- Question two -->
+            <label for="QuestionTwo">
+                Do you consider yourself more optimistic or pessimistic?
+            </label>
+            <input type="text" name="QuestionTwo" id="QuestionTwo" placeholder="text here">
+            <br>
+           <!-- Question three -->
+           <label for="QuestionThree">
+            Are you more spontaneous or planned?
+           </label>
+           <input type="text" name="QuestionThree" id="QuestionThree" placeholder="text here">
+           <br>           
+           <!-- Question four -->
+           <label for="QuestionFour">
+            Do you prefer working alone or in a group?
+           </label>
+           <input type="text" name="QuestionFour" id="QuestionFour" placeholder="text here">
+           <br>
+           <!-- Question five -->
+           <label for="QuestionFive">
+            Are you more detail-oriented or big-picture focused?
+           </label>
+           <input type="text" name="QuestionFive" id="QuestionFive" placeholder="text here">
+           <br>
+           <input type="submit" value="Submit" id="button">
+        </form>
+        <div class="answer">
+            <h2>Your name is: <span id="nameHere"></span></h2>
+        </div>
+    </main>
+
+    <script src="/js/index.js"></script>
+</body>
+</html>
